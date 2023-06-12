@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true" LANGUAGE_LEVEL="JDK_1_8">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/groovy" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.datastax.cassandra/cassandra-driver-core/3.3.0/7e569fcd731fdd71ef6dff8ecd318d1b57a63ef2/cassandra-driver-core-3.3.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.datastax.cassandra/cassandra-driver-core/3.3.0/60e377677b3f1b1524ce82f06b2c9d8777999114/cassandra-driver-core-3.3.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.47.Final/caf9f8c2bd54938c01548afa5082b6341ddd30a8/netty-handler-4.0.47.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.0.47.Final/cbbdd7bc74fca7efbb917a539077f6d995ebf925/netty-handler-4.0.47.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/91a4d115400e904f22b03a78deb355e9ea803cd4/guava-19.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.2.2/cd9886f498ee2ab2d994f0c779e5553b2c450416/metrics-core-3.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.2.2/d8341de37a301b38988b40f5b20976258f2b77e8/metrics-core-3.2.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.27/f7441d13187d93d59656ac8f800cba3043935b59/jnr-posix-3.0.27.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.27/75832149e7f877044cdee1f018c8dfe2a00e1069/jnr-posix-3.0.27-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.0.7/f0968c5bb5a283ebda2df3604c2c1129d45196e3/jnr-ffi-2.0.7.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.0.7/164d820d7c38c14cd3675bfbf3eb6aeeedc9b0f4/jnr-ffi-2.0.7-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.47.Final/36d5841bc8da8f75d32f8af7e7c8e79bdd3e254/netty-codec-4.0.47.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.0.47.Final/ad00c2edabec2e3740413f908b65631fcd3955ef/netty-codec-4.0.47.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.47.Final/f5dc76021988fd1dc4e7bcb2fb0bc237b8b2098d/netty-transport-4.0.47.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.0.47.Final/5a383ca34c2b9f16402c739e0926302a857ea0a8/netty-transport-4.0.47.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.47.Final/b736f6a84b56c571c589318f4e585bce98d8bb77/netty-buffer-4.0.47.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.0.47.Final/1c3e6a8f064ccee968a29d693652afee302f0bf2/netty-buffer-4.0.47.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.10/d58fdb2283456bc3f049bfbef40b592fa1aaa975/jffi-1.2.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.10/294f2128c25b458a8dcc11c090b4126f9375fca/jffi-1.2.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/a7111830132c7f87d08fe48cb0ca07630f8cb91c/asm-commons-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-commons-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-analysis-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-util-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-tree-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6936bbd6c5b235665d87bd450f5e13b52d4b48/jnr-x86asm-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6bb6efcd010567ad80c8bb2bdd5065b30f0f1468/jnr-x86asm-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.0/6894684e17a84cd500836e82b5e6c674b4d4dda6/jnr-constants-0.9.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.0/e4554111effd2f2ba951b31d3829fa531743adeb/jnr-constants-0.9.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.47.Final/9e98137fd1fa1b1a08477c172c2efd112cc95616/netty-common-4.0.47.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.0.47.Final/4fe3897a6e19fe3fb674322863b2d86e61ebdb61/netty-common-4.0.47.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.10/7de1bb566847c2ed71d91ca063a8af604f250ade/jffi-1.2.10-native.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.10/294f2128c25b458a8dcc11c090b4126f9375fca/jffi-1.2.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.3-groovy-2.5/6f0df2cf4549dcc4b914971675da7e224e893e82/spock-core-1.3-groovy-2.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.3-groovy-2.5/9726a6007ac266047cdc616c9111e552d565800c/spock-core-1.3-groovy-2.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/2.5.13/6fb3e956fd233d927ef36db04d5502405c4213a6/groovy-test-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test/2.5.13/81da06a272610620d441d9138b66bb5afef241b/groovy-test-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/e49ccba652b735c93bd6e6f59760d8254cf597dd/junit-4.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/d10a9c3acc6c07a5700e37697b5a6b4dcfb8abf9/junit-4.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/2.5.13/38518c6fe3b4637cec3ad08418f7f291df47441c/groovy-ant-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-ant/2.5.13/a74de4510edfb81eba71034d18ec7b6efad59b02/groovy-ant-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-commons/2.5.13/40e3dadc7683f866ded6848aee5d1cb35b11ae01/groovy-cli-commons-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-commons/2.5.13/5023e27ac007beb78c1636be85efb60ad59bac97/groovy-cli-commons-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/2.5.13/52d8eb78f78652eca1b84dde08ed1a8616d1e5e2/groovy-groovysh-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovysh/2.5.13/28861bd901aafb1eea207214ed2595bd77a16e85/groovy-groovysh-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/2.5.13/abd60ef670eb62c64c159e0f35c9e546033d23fd/groovy-console-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-console/2.5.13/1a3fe320a2d25ca1771d855bfa4a43d6e596d78c/groovy-console-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/2.5.13/9f86148ce94f39db640a72241ca454a8f199cba2/groovy-docgenerator-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-docgenerator/2.5.13/20a829840c486d63857701b839e05226581d344e/groovy-docgenerator-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/2.5.13/8b01b0501aba1d225d195b5f076cc57ec515bf8a/groovy-groovydoc-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-groovydoc/2.5.13/b0ee212a5f45443526f9fa991f432ee03e1b2344/groovy-groovydoc-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/2.5.13/223c8e68e08079fa75a71015b93cc74e2aa87d53/groovy-cli-picocli-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-cli-picocli/2.5.13/7b10acf221aece2c67ac634a3902e5bdc478b1a6/groovy-cli-picocli-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/2.5.13/6006a1f8af5a8010d3a23cd1fe1cabff0880ad0c/groovy-datetime-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-datetime/2.5.13/f1cbaf424b62480f5104f8010b80b91fc28925de/groovy-datetime-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/2.5.13/a4be3de1875f2f319450b95eca79dd0d342b2a05/groovy-jmx-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jmx/2.5.13/a5e087c872a8be75340c3d73cd1af44e08055682/groovy-jmx-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.5.13/d409d7ab6a53ce879ffadc210d86accda755518c/groovy-json-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-json/2.5.13/ffe725671cc9c93afaa2a5d4c31c9e8dfb30d7fb/groovy-json-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/2.5.13/dc2e556e322caa41300f70c4d7ddd93968ddf6dd/groovy-jsr223-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-jsr223/2.5.13/728da995a08e7d86bb17a0bb8a04b253f79f0126/groovy-jsr223-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/2.5.13/6e45aa353aadeb73780f62301ef1f9d8870791a3/groovy-macro-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-macro/2.5.13/1755536a1f508ac65ca802aed42b9a49f08d21c7/groovy-macro-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/2.5.13/65957244973775c478f77746445a3b14b76ce603/groovy-nio-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-nio/2.5.13/e790d3d4f79c1d08255fe7c91846bc3ba9d7b653/groovy-nio-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/2.5.13/7e0aa75f8712c8d9b9b4708242ff02cec3c4e3ee/groovy-servlet-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-servlet/2.5.13/6ad73573c987df1fbdcdddd8159d18a435930e0f/groovy-servlet-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/2.5.13/59a7fd599ffa2239696f14ea82f1661f565e3fe1/groovy-sql-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-sql/2.5.13/27020a1bbbd5215c09aff4a04beeff06fc18595d/groovy-sql-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/2.5.13/20c9f0ad81b785f66e3409caf03471d2d83b9353/groovy-swing-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-swing/2.5.13/6cd4805e27786a34f92d1a512f066c877cb10a18/groovy-swing-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/2.5.13/5d82e5c08d8d0c54d59b3cace2ebb99898e528ad/groovy-templates-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-templates/2.5.13/d7db4736498ca719b36bec80a01dc37acf5731a3/groovy-templates-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/2.5.13/c41e50d452691610c8844fa4e9740015298ef58d/groovy-test-junit5-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-test-junit5/2.5.13/65b7062a006f3edc26edab34dbff5e3a361af8cd/groovy-test-junit5-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/2.5.13/c0f74220eb7a41ff8d21057b88c45abed8126879/groovy-testng-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-testng/2.5.13/a7a53b6fac3360774d6e6c216729751a817c33e4/groovy-testng-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.5.13/6b07ae4bce24b5d355ca31884b4494cf8211cc80/groovy-xml-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-xml/2.5.13/7d83731e71aa509a72121006af09ceb33c648485/groovy-xml-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.5.13/ac054525fdc81cbd0bc2552b57052ebb1a93cd40/groovy-2.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.5.13/e17fc354d45314e0148e899806785c6c294cba5c/groovy-2.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.9.15/da94dd78a0bdddcbc68107464632ecc7a61039a1/ant-1.9.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant/1.9.15/408af958e2b36758ccf0f6fae3bacaae38e1df94/ant-1.9.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.4/c51c00206bb913cd8612b24abd9fa98ae89719b1/commons-cli-1.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.4/40dfd9fdef125e19136135e68d54af6d9b0cfbb8/commons-cli-1.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.3.2/37a9ed41f7a028611775b6e8ad831e3e5fcd6280/picocli-4.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/info.picocli/picocli/4.3.2/bcb0a39e3ee49773b6c278a3fe6f1cad2f1c0515/picocli-4.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/f7122f6ab1f64bdf9f5970b0e89bfb355e036897/qdox-1.12.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.thoughtworks.qdox/qdox/1.12.1/a284148a118e10bb84598dfb83f19d1ff128afad/qdox-1.12.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/c3aeac59c022bdc497c8c48ed86fa50450e4896a/jline-2.14.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/jline/jline/2.14.6/e93dc55cf5b6f201e850ed339fa52e50d51105d5/jline-2.14.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.4.2/665d1c0daecb26c6210c872768000b417e7e52b6/junit-jupiter-api-5.4.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.4.2/a9df56f0d77553e469fbcc0b5cb2e3b01d3b24fe/junit-jupiter-api-5.4.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.4.2/7e6121cc7a1330182a81f8e7d3c6f0d227c43999/junit-platform-launcher-1.4.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.4.2/fe3880fccf6353eb1c9707489c4f9d7feeb4c772/junit-platform-launcher-1.4.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.9.15/8d145ef52e7a105dd527160a6381aeabca3c7eb3/ant-launcher-1.9.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-launcher/1.9.15/512065ad68b01c7844ba7a02f56ed950e009edc3/ant-launcher-1.9.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.2/52b70561f65bb397b054876f2d8c6f30b06c3581/junit-platform-engine-1.4.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.2/877d768e61adbafa5760c7d5bba5e43510784a0c/junit-platform-engine-1.4.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.1/efd9f971e91074491ea55b19f67b13470cf4fcdd/opentest4j-1.1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.1/88a3a2cb15c413565462cea99f201b67bc6d2f10/opentest4j-1.1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.2/37993dc807ca253aa347be8968a0ae7b70642dbc/junit-platform-commons-1.4.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.2/2e434692947b66671a53b7ec887d50688dc61baf/junit-platform-commons-1.4.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.10/7de1bb566847c2ed71d91ca063a8af604f250ade/jffi-1.2.10-native.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.10/294f2128c25b458a8dcc11c090b4126f9375fca/jffi-1.2.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.9.15/5e23f5db3553bc7fcfb95f7a2d40ea9665a492e0/ant-junit-1.9.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-junit/1.9.15/f9ab5f6c0f593e209cb5e2c22ad7bddcdf6eb67a/ant-junit-1.9.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.9.15/72dd604f75b079295ac6dc7aab77166f35866771/ant-antlr-1.9.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.apache.ant/ant-antlr/1.9.15/9396ff7cf9e47eb9d4b371fb3e02c3da0dc9c519/ant-antlr-1.9.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.2/4d10922ce4d9c4e22cef8ff5386cb273b9f12281/junit-jupiter-engine-5.4.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.2/f108e9dae10699cebc1e0dcf3323ff3a749a49ed/junit-jupiter-engine-5.4.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/2495393a0b4b7d7a4b49ea1f8516376f70f482c/testng-6.13.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.13.1/a2b77dfee647263d2c1010215441bfa3e28c4b9c/testng-6.13.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.72/6375e521c1e11d6563d4f25a07ce124ccf8cd171/jcommander-1.72.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/arvydas.jonusonis/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.72/7ef123d5dfb6f839b41265648ff1be34982d50f8/jcommander-1.72-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>
